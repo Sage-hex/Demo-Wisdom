@@ -68,7 +68,7 @@ const Hero = () => {
         <p className="text-[#1A1A1A] text-xl md:text-6xl text-center mb-6 font-[pangolin]">
   Create, Connect, Get Paid
 </p>
-          <h1 className='text-[10rem] sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-center md:text-left text-customPink'>Fuel your passion!</h1>
+          <h1 className='text-[10rem] sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-center md:text-center text-customPink'>Fuel your passion!</h1>
         </div>
         
         {/* Middle Section */}
