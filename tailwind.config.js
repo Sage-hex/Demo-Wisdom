@@ -10,10 +10,10 @@ export default {
         sans: ['Titan One', 'Nutino','Pangolin', 'sans-serif'],
       },
       backgroundImage: {
-        'grid-large': "linear-gradient(90deg, #e0e0e0 1px, transparent 1px), linear-gradient(180deg, #e0e0e0 1px, transparent 1px)",
+        'grid-large': "linear-gradient(to left, #e0e0e0 1px, transparent 1px), linear-gradient(to top, #e0e0e0 1px, transparent 1px)",
       },
       backgroundSize: {
-        'grid-large': '80px 80px', // Larger grid pattern
+        'grid-large': '60px 60px', // Larger grid pattern
       },
       screens: {
         'sm': '320px',
@@ -42,3 +42,5 @@ export default {
   },
   plugins: [],
 }
+
+

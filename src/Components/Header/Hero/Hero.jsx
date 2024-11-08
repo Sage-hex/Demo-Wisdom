@@ -7,7 +7,7 @@ import rightImage from '../../../assets/girl-on-pencil-skate.png';
 const Hero = () => {
   return (
     <section className='w-full pt-[10vh] bg-white min-h-screen flex justify-center items-center'>
-      <div className="w-11/12 h-full flex flex-col justify-between mt-56 sm:mt-20 md:mt-40 gap-14 items-center">
+      <div className=" w-5/6 h-full flex flex-col justify-between pt-56 sm:pt-20 md:pt-40 gap-14 items-center bg-grid-large">
 
         {/* This is the top section with heading and description */}
         <div className='w-full flex flex-col items-center justify-center mb-8'>
