@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
-import Navbar from './Components/Header/Navbar/Navbar'
-import HeroSection from './Components/Header/Hero/Hero'
+import Navbar from './Components/Navbar/Navbar'
+import HeroSection from './Components/Hero/Hero'
+import About from './Components/About/About'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -14,6 +15,7 @@ const App = () => {
     <div>
       <Navbar/>
       <HeroSection/>
+      <About/>
     </div>
   )
 }

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Squash as Hamburger } from 'hamburger-react';
 import { AiOutlineArrowRight } from 'react-icons/ai';
-import logo from '../../../assets/logo.png';
-import Button from '../../Button/Button';
+import logo from '../../assets/logo.png';
+import Button from '../Button/Button';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
