@@ -24,6 +24,9 @@ export default {
       },
       colors: {
         customPink: '#F079AE',
+        customBlue:'#08B7E8',
+        customWhite:'#FFFFFF'
+
       },
       animation: {
         'bounce-infinite': 'bounceInfinite 2s infinite',

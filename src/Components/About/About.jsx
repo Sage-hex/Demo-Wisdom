@@ -15,7 +15,7 @@ const About = () => {
           </div>
 
           <div className="w-[55%] h-full border-2 border-black">
-            <h1 className="bg-green-500 inline-block p-lg" >About us</h1>
+            <h1 className=" inline-block py-2 px-4 rounded-2xl bg-customBlue text-customWhite leading-normal" >About us</h1>
             <h2>Built to Empower Your Creative Journey</h2>
             <p>
               Designed to help you share, connect, and grow with the support of
