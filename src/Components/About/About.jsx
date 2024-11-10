@@ -40,39 +40,39 @@ const About = () => {
 
               </div>
             </div>
-            <div className="border-4 border-yellow-500 w-full">
-              <div>
+            <div className="border-4 border-yellow-500 w-full h-4/5 flex flex-col md:flex-row items-center justify-center gap-8">
+              <div className="h-full w-4/12 flex flex-col gap-4">
                 <div>
-					<img src={KatyImage} className="w-20" alt="katy-image" />
+					<img src={KatyImage} className="obect-contain" alt="katy-image" />
 				</div>
-                <div className="flex">
+                <div className="flex gap-4 items-center justify-start">
                   <AiOutlineArrowRight />
                   <h2>Katy’s Page</h2>
 				  
                 </div>
-				<span>120+ Followers</span>
+				<span className="px-8">120+ Followers</span>
               </div>
-			  <div>
+			  <div className="h-full w-4/12 flex flex-col gap-4">
                 <div>
-					<img src={RayBandsImage} className="w-20"  alt="katy-image" />
+					<img src={RayBandsImage} className="obect-contain"  alt="katy-image" />
 				</div>
-                <div className="flex">
+                <div className="flex gap-4 items-center justify-start">
                   <AiOutlineArrowRight />
                   <h2>RayBands Fx</h2>
 				  
                 </div>
-				<span>120+ Followers</span>
+				<span className="px-8">120+ Followers</span>
               </div>
-			  <div>
+			  <div className="h-full w-4/12 flex flex-col gap-4">
                 <div>
-					<img src={MulaniImage} className="w-20"  alt="katy-image" />
+					<img src={MulaniImage} className="obect-contain"  alt="katy-image" />
 				</div>
-                <div className="flex">
+                <div className="flex gap-4 items-center justify-start">
                   <AiOutlineArrowRight />
-                  <h2>Mulan</h2>
+                  <h2 >Mulan</h2>
 				  
                 </div>
-				<span>14k Followers</span>
+				<span className="px-8">14k Followers</span>
               </div>
             {/* </div> */}
           </div>
