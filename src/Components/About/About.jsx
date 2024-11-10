@@ -32,7 +32,7 @@ const About = () => {
           {/* <div className="w-11/12 border-[8px] border-green-500 "> */}
             <div className="flex flex-col md:flex-row justify-between items-start gap-3 md:items-center border-[5px] border-red-500 w-full h-1/5">
               <div className="">
-              <h2 className="capitalize text-customWhite text-3xl xl:text-4xl">TOP SELLERS </h2>
+              <h2 className="capitalize text-customWhite text-3xl xl:text-4xl mb-4">TOP SELLERS </h2>
               <p className="text-sm xl:text-2xl text-customWhite">From podcasts to cosplay, pixel art to crochet.</p>
               </div>
               <div>
@@ -50,7 +50,7 @@ const About = () => {
                   <h2>Katy’s Page</h2>
 				  
                 </div>
-				<span className="px-10  text-[18px] md:text-[13px] font-[nutino]">120+ Followers</span>
+				<span className="px-9 lg:px-11  text-[18px] md:text-[13px] font-[nutino]">120+ Followers</span>
               </div>
 			  <div className="h-full md:w-4/12 flex flex-col">
                 <div>
@@ -61,7 +61,7 @@ const About = () => {
                   <h2>RayBands Fx</h2>
 				  
                 </div>
-				<span className="px-10 text-[18px] md:text-[13px] font-[nutino]">120+ Followers</span>
+				<span className="px-9 lg:px-11 lg:text-[18px] md:text-[13px] font-[nutino]">120+ Followers</span>
               </div>
 			  <div className="h-full md:w-4/12 flex flex-col">
                 <div>
@@ -72,7 +72,7 @@ const About = () => {
                   <h2 >Mulan</h2>
 				  
                 </div>
-				<span className="px-10 text-[18px] md:text-[13px] font-[nutino]">14k Followers</span>
+				<span className="px-9 lg:px-11 text-[18px] md:text-[13px] font-[nutino]">14k Followers</span>
               </div>
             {/* </div> */}
           </div>
