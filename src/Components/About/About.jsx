@@ -8,8 +8,8 @@ import RayBandsImage from '../../assets/RayBandsImage.png';
 const About = () => {
   return (
     <section className="w-full h-[300vh] lg:h-[200vh] flex items-start md:items-center justify-center border-4 border-black md:rounded-t-[200px]  lg:rounded-t-[300px] bg-blue-500">
-      <div className="flex flex-col justify-between items-center  w-full md:w-[85%]  h-5/6 border-[8px] border-green-500 lg:rounded-t-[150px] ">
-	  <div className="flex flex-col  lg:flex-row items-center justify-center sm:rounded-t-[0px] gap-[2.5rem] xl:gap-[3rem] w-full md:w-[100%]  rounded-lg rounded-lg h-auto xl-[40%] xl:w-[100%]  lg:rounded-t-[150px] border-[5px] border-red-500">
+      <div className="flex flex-col justify-between gap-[2.5rem] items-center  w-full md:w-[85%]  h-5/6 border-[8px] border-green-500 lg:rounded-t-[150px] ">
+	  <div className="flex flex-col  lg:flex-row items-center justify-center sm:rounded-t-[0px] gap-[2.5rem] xl:gap-[3rem] w-full md:w-[100%]  rounded-lg rounded-lg h-auto xl-[40%] xl:w-[100%]  lg:rounded-t-[150px]">
           <div className="w-full h-[50%] lg:w-[45%]  lg:h-[100%]  flex items-center justify-center  md:rounded-tl-[150px] p-[1rem] bg-customWhite">
             <img src={AboutImage} className="w-screen h-[90%] object-contain" alt="about-left-image" />
           </div>
@@ -30,13 +30,13 @@ const About = () => {
 
         <div className="flex flex-col items-center justify-start border-[8px] border-black w-full h-[50%]">
           {/* <div className="w-11/12 border-[8px] border-green-500 "> */}
-            <div className="border-[5px] border-red-500 w-full h-1/3">
-              <div>
-              <h1>TOP SELLERS </h1>
-              <p>From podcasts to cosplay, pixel art to crochet.</p>
+            <div className="flex flex-col md:flex-row justify-between items-start gap-3 md:items-center border-[5px] border-red-500 w-full h-1/5">
+              <div className="">
+              <h2 className="capitalize text-customWhite text-3xl xl:text-4xl">TOP SELLERS </h2>
+              <p className="text-sm xl:text-2xl text-customWhite">From podcasts to cosplay, pixel art to crochet.</p>
               </div>
               <div>
-            <span>See more</span>
+            <span className="text-customWhite text-base font-bold font-[nutino] italic">See more</span>
 
               </div>
             </div>
