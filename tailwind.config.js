@@ -25,7 +25,8 @@ export default {
       colors: {
         customPink: '#F079AE',
         customBlue:'#08B7E8',
-        customWhite:'#FFFFFF'
+        customWhite:'#FFFFFF',
+        customYellow:'#FFDC4C',
 
       },
       animation: {
