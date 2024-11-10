@@ -7,15 +7,15 @@ import RayBandsImage from '../../assets/RayBandsImage.png';
 
 const About = () => {
   return (
-    <section className="w-full h-[200vh] flex items-center justify-center border-4 border-black rounded-t-[300px] bg-blue-500">
-      <div className="w-[90%] h-5/6 bg-red-500 rounded-t-[150px] ">
-	  <div className="flex flex-col md:flex-row items-center justify-center p-[3rem] sm:[0] gap-[2.5rem] lg:gap-[7rem] w-full h-auto md:h-[40%] rounded-t-[150px] border-2 border-black bg-green-500">
-          <div className="md:w-[45%] h-[100%]  flex items-center justify-center rounded-tl-[100px] p-[1rem] bg-white border-2 border-black">
-            <img src={AboutImage} alt="about-left-image" />
+    <section className="w-full h-[300vh] lg:h-[200vh] flex items-center justify-center border-4 border-black  lg:rounded-t-[300px] bg-blue-500">
+      <div className=" w-full lg:w-[80%] h-5/6 bg-red-500 border-[8px] border-green-500 lg:rounded-t-[150px] ">
+	  <div className="flex flex-col lg:flex-row items-center justify-center sm:rounded-t-[0px] gap-[2.5rem] lg:gap-[7rem] w-full h-auto lg:h-[35%] md:rounded-t-[150px] border-[8px] border-yellow-500">
+          <div className="w-[100%] h-[50%] md:w-[45%] md:h-[100%]  border-2 border-red-500 flex items-center justify-center md:rounded-tl-[150px] p-[1rem] bg-customWhite ">
+            <img src={AboutImage} className="w-screen h-[90%] object-contain" alt="about-left-image" />
           </div>
 
-          <div className="w-[55%] flex flex-col justify-start items-start h-full">
-		  <h1 className="inline-block py-3 px-6 rounded-3xl bg-customBlue text-customWhite leading-normal mb-[8rem] md:mb-[4rem]">About us</h1>
+          <div className="md:w-[55%] flex flex-col justify-center md:justify-start items-center md:items-start h-full">
+		  <h1 className="inline-block text-sm md:text-3xl py-3 px-6 md:py-6 md:px-12 rounded-3xl md:rounded-full bg-customBlue text-customWhite font-normal mb-[3rem] md:mb-[4rem]">About us</h1>
 		  <h2 className="text-3xl xl:text-6xl md:text-2xl text-customWhite font-normal mb-[2.5rem]">Built to Empower Your Creative Journey</h2>
             <p className=" xl:text-[18px] md:text[16px] font-[nutino] text-customWhite mb-[2rem]">
               Designed to help you share, connect, and grow with the support of
@@ -23,7 +23,7 @@ const About = () => {
               community, and turn your creativity into income—all <br /> in one
               place.
             </p>
-            <span className="font-[nutino] text-customYellow text-[18px]">See detail</span>
+            <span className="font-[nutino] text-customYellow text-[18px] italic">See detail</span>
           </div>
         </div>
 
