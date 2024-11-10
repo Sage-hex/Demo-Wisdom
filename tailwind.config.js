@@ -15,6 +15,9 @@ export default {
       backgroundSize: {
         'grid-large': '60px 60px', // Larger grid pattern
       },
+      boxShadow: {
+        'custom-khaki': 'rgba(195, 176, 145, 0.4) 5px 5px, rgba(195, 176, 145, 0.3) 10px 10px, rgba(195, 176, 145, 0.2) 15px 15px, rgba(195, 176, 145, 0.1) 20px 20px, rgba(195, 176, 145, 0.05) 25px 25px',
+      },
       screens: {
         'sm': '320px',
         'md': '768px',
