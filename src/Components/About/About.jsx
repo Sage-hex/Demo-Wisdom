@@ -7,8 +7,8 @@ import RayBandsImage from '../../assets/RayBandsImage.png';
 
 const About = () => {
   return (
-    <section className="w-full h-[300vh] lg:h-[200vh] flex items-start md:items-center justify-center border-4 border-black md:rounded-t-[200px]  lg:rounded-t-[300px] bg-blue-500">
-      <div className="flex flex-col justify-between gap-[2.5rem] items-center  w-full md:w-[85%]  h-5/6 border-[8px] border-green-500 lg:rounded-t-[150px] ">
+    <section className="w-full h-auto md:h-[300vh] lg:h-[200vh] flex items-start md:items-center justify-center border-4 border-black md:rounded-t-[200px]  lg:rounded-t-[300px] bg-blue-500">
+      <div className="flex flex-col justify-between gap-[2.5rem] items-center  w-full md:w-[85%]  md:h-5/6 border-[8px] border-green-500 lg:rounded-t-[150px] ">
 	  <div className="flex flex-col  lg:flex-row items-center justify-center sm:rounded-t-[0px] gap-[2.5rem] xl:gap-[3rem] w-full md:w-[100%]  rounded-lg rounded-lg h-auto xl-[40%] xl:w-[100%]  lg:rounded-t-[150px]">
           <div className="w-full h-[50%] lg:w-[45%]  lg:h-[100%]  flex items-center justify-center  md:rounded-tl-[150px] p-[1rem] bg-customWhite">
             <img src={AboutImage} className="w-screen h-[90%] object-contain" alt="about-left-image" />
@@ -40,39 +40,39 @@ const About = () => {
 
               </div>
             </div>
-            <div className="border-4 border-yellow-500 w-full h-4/5 flex flex-col md:flex-row items-center justify-center gap-8">
-              <div className="h-full w-4/12 flex flex-col gap-4">
+            <div className="border-4 border-yellow-500 w-full h-auto md:h-4/5 flex flex-col md:flex-row items-center justify-center gap-8">
+              <div className="h-2/6 md:h-full md:w-4/12 flex flex-col">
                 <div>
-					<img src={KatyImage} className="obect-contain" alt="katy-image" />
+					<img src={KatyImage} className="object-contain" alt="katy-image" />
 				</div>
-                <div className="flex gap-4 items-center justify-start">
+                <div className="flex gap-4 items-center mt-4 justify-start text-xl lg:text-3xl">
                   <AiOutlineArrowRight />
                   <h2>Katy’s Page</h2>
 				  
                 </div>
-				<span className="px-8">120+ Followers</span>
+				<span className="px-10  text-[18px] md:text-[13px] font-[nutino]">120+ Followers</span>
               </div>
-			  <div className="h-full w-4/12 flex flex-col gap-4">
+			  <div className="h-full md:w-4/12 flex flex-col">
                 <div>
-					<img src={RayBandsImage} className="obect-contain"  alt="katy-image" />
+					<img src={RayBandsImage} className="object-contain"  alt="katy-image" />
 				</div>
-                <div className="flex gap-4 items-center justify-start">
+                <div className="flex gap-4 items-center mt-4 justify-start text-xl lg:text-3xl">
                   <AiOutlineArrowRight />
                   <h2>RayBands Fx</h2>
 				  
                 </div>
-				<span className="px-8">120+ Followers</span>
+				<span className="px-10 text-[18px] md:text-[13px] font-[nutino]">120+ Followers</span>
               </div>
-			  <div className="h-full w-4/12 flex flex-col gap-4">
+			  <div className="h-full md:w-4/12 flex flex-col">
                 <div>
-					<img src={MulaniImage} className="obect-contain"  alt="katy-image" />
+					<img src={MulaniImage} className="object-contain"  alt="katy-image" />
 				</div>
-                <div className="flex gap-4 items-center justify-start">
+                <div className="flex gap-4 items-center text-xl mt-4 lg:text-3xl justify-start">
                   <AiOutlineArrowRight />
                   <h2 >Mulan</h2>
 				  
                 </div>
-				<span className="px-8">14k Followers</span>
+				<span className="px-10 text-[18px] md:text-[13px] font-[nutino]">14k Followers</span>
               </div>
             {/* </div> */}
           </div>
