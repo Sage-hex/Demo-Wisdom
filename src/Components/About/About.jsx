@@ -9,7 +9,7 @@ const About = () => {
   return (
     <section className="w-full h-[300vh] lg:h-[200vh] flex items-start md:items-center justify-center border-4 border-black md:rounded-t-[200px]  lg:rounded-t-[300px] bg-blue-500">
       <div className="flex flex-col justify-between items-center  w-full md:w-[85%]  h-5/6 border-[8px] border-green-500 lg:rounded-t-[150px] ">
-	  <div className="flex flex-col  lg:flex-row items-center justify-center sm:rounded-t-[0px] gap-[2.5rem] xl:gap-[3rem] w-full md:w-[100%]  rounded-lg rounded-lg h-[40%] xl:w-[100%]  lg:rounded-t-[150px] border-[5px] border-red-500">
+	  <div className="flex flex-col  lg:flex-row items-center justify-center sm:rounded-t-[0px] gap-[2.5rem] xl:gap-[3rem] w-full md:w-[100%]  rounded-lg rounded-lg h-auto xl-[40%] xl:w-[100%]  lg:rounded-t-[150px] border-[5px] border-red-500">
           <div className="w-full h-[50%] lg:w-[45%]  lg:h-[100%]  flex items-center justify-center  md:rounded-tl-[150px] p-[1rem] bg-customWhite">
             <img src={AboutImage} className="w-screen h-[90%] object-contain" alt="about-left-image" />
           </div>
